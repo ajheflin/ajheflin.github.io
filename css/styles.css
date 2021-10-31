@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i|Montserrat:400,700,900|Open+Sans:400,400i|Oswald:400,700|Playfair+Display+SC|Playfair+Display:400,400i,900,900i|Source+Sans+Pro");
+@keyframes fadeInTop {
+  0% {
+    top: 50px;
+    opacity: 0; }
+  100% {
+    top: 0px;
+    opacity: 1; } }
+@keyframes fadeInLeft {
+  0% {
+    left: -50px;
+    opacity: 0; }
+  100% {
+    left: 0px;
+    opacity: 1; } }
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+div.inner {
+  width: 100%; }
+  div.inner h1 {
+    font-family: "Playfair Display", "Tahoma", "Arial"; }
+  div.inner p {
+    font-family: "Playfair Display", "Tahoma", "Arial"; }
+
+div.container {
+  padding: 2%; }
+  div.container h1 {
+    font-size: 5em; }
+  div.container p {
+    font-size: 4em; }
+
+div.container2 .inner {
+  width: 94%;
+  padding: 1% 4% 1% 2%; }
+div.container2 .inner.blue {
+  background-color: #0373b4;
+  color: #fff; }
+div.container2 .inner.white {
+  background-color: #fff;
+  color: #000; }
+div.container2 h1 {
+  font-size: 4em; }
+div.container2 p {
+  font-size: 2em; }
+
+.fadeInTop {
+  animation: 1s ease-out 0s 1 fadeInTop;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: relative;
+  top: 50px; }
+
+.fadeInLeft {
+  animation: 1s ease-out 0s 1 fadeInLeft;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: relative;
+  left: -50px; }
+
+.aboutMe h1 {
+  font-weight: bold;
+  font-size: 4em !important; }
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1% 0%;
+  text-align: center; }
+  .footer p {
+    font-family: "Playfair Display", "Tahoma", "Arial"; }
+    .footer p a {
+      color: #fff;
+      text-decoration: none;
+      transition: .3s all ease-in-out; }
+    .footer p a:hover {
+      color: #f20202; }
+
+.aboutMe, .contact {
+  display: flex;
+  justify-content: space-between; }
+  .aboutMe i, .contact i {
+    color: #f20202;
+    transition: .3s all ease-in-out; }
+  .aboutMe i:hover, .contact i:hover {
+    color: black; }
+  .aboutMe a, .contact a {
+    color: #f20202;
+    font-size: 4em;
+    font-family: "Playfair Display", "Tahoma", "Arial";
+    text-decoration: none;
+    transition: .3s all ease-in-out; }
+  .aboutMe a:hover, .contact a:hover {
+    color: #000; }
+
+.work div {
+  width: 100vw;
+  margin: 0;
+  padding: 1% 0%;
+  text-align: center; }
+  .work div h1 {
+    font-size: 3em !important;
+    color: white;
+    font-family: "Playfair Display", "Tahoma", "Arial"; }
+  .work div p {
+    font-family: "Playfair Display", "Tahoma", "Arial";
+    color: white; }
+.work div.cffrancis {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cffrancis.png");
+  background-size: 110%;
+  background-position: center;
+  transition: .3s all ease-out; }
+.work div.cffrancis:hover {
+  background-size: 100%;
+  cursor: pointer; }
+.work div.apex {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/apex.png");
+  background-size: 110%;
+  background-position: top;
+  transition: .3s all ease-out; }
+.work div.apex:hover {
+  background-size: 100%;
+  cursor: pointer; }
+.work div.kristi {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/kristiinc.png");
+  background-size: 110%;
+  background-position: center;
+  transition: .3s all ease-out; }
+.work div.kristi:hover {
+  background-size: 100%;
+  cursor: pointer; }
+.work div.jenna {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/jennafelder.png");
+  background-size: 110%;
+  background-position: center;
+  transition: .3s all ease-out; }
+.work div.jenna:hover {
+  background-size: 100%;
+  cursor: pointer; }
+.work div.brooke {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/brookerein.png");
+  background-size: 110%;
+  background-position: center;
+  transition: .3s all ease-out; }
+.work div.brooke:hover {
+  background-size: 100%;
+  cursor: pointer; }
+.work div.creativo {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/creativo.png");
+  background-size: 110%;
+  background-position: center;
+  transition: .3s all ease-out; }
+.work div.creativo:hover {
+  background-size: 100%;
+  cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */

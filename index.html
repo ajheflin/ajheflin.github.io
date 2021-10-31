@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ajheflin - Welcome</title>
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner fadeInnerContentsTop">
+        <h1 style="font-size: 6em;">ajheflin<span style="color: #fd0202;">.</span></h1>
+        <p>Seamlessly blending art and marketing.</p>
+        <div class="aboutMe">
+          <h1>Modern art.</h1>
+          <h1>Clean lines.</h1>
+          <h1>Beautiful design.</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="inner blue fadeInnerContentsTop">
+        <h1>The Story</h1>
+        <p>I make art. Not the traditional kind of art that is made with a canvas and paint. Nor is it the kind that requires getting dirty (unless you count spilling a drink all over your keyboard). I make the kind of art that lasts forever (quite literally. Have you ever heard the phrase "Nothing posted on the internet will ever go away"?). I make the kind of art that is sure to draw in your visitors. I make the kind of art that turns heads, generates clicks, and gets you more clients.</p>
+      </div>
+      <div class="inner white fadeInnerContentsTop">
+        <h1>Interested?</h1>
+        <p>Take a look at some of my projects below.</p>
+      </div>
+      <div class="fadeInnerContentsTop">
+        <div class="work">
+          <div class="cffrancis">
+            <h1>C.F. Francis, Author</h1>
+            <p>cffrancis.net</p>
+          </div>
+          <div class="apex">
+            <h1>Apex Biomedical Systems</h1>
+            <p>apexbiomedical.net</p>
+          </div>
+          <div class="kristi">
+            <h1>Kristi Stiff Photography</h1>
+            <p>kristiinc.com</p>
+          </div>
+          <div class="jenna">
+            <h1>Jenna Felder, LLC</h1>
+            <p>dev.ajheflin.com/jennafelder/</p>
+          </div>
+          <div class="brooke">
+            <h1>Brooke Rein, Hair Stylist</h1>
+            <p>brookerein.com</p>
+          </div>
+          <div class="creativo">
+            <h1>Creativo Education Solutions</h1>
+            <p>dev.ajheflin.com/creativo/</p>
+          </div>
+        </div>
+        <div class="footer">
+          <p>&copy;ajheflin Designs <span id="date"></span>.<br><i class="fa fa-envelope"></i> <a href="mailto:me@ajheflin.com">me@ajheflin.com</a><br><i class="fa fa-phone"></i> <a href="tel:7272787346" style="font-family: 'Open Sans';">(727)-278-7346</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $(".no-touchevents .fadeInnerContentsTop").children().addClass("fadeInTop");
+          $(".no-touchevents .fadeInnerContentsLeft").children().addClass("fadeInLeft");
+          $("#date").text(new Date().getFullYear());
+        });
+        $(".cffrancis").click(function() {
+          window.open('http://cffrancis.net/oldsite/', '_blank');
+        })
+        $(".apex").click(function() {
+          window.open('http://apexbiomedical.net/apexnew', '_blank');
+        })
+        $(".kristi").click(function() {
+          window.open('http://kristiinc.com', '_blank');
+        })
+        $(".jenna").click(function() {
+          window.open('http://ajheflin.com/dev/jennafelder/', '_blank');
+        })
+        $(".brooke").click(function() {
+          window.open('http://brookerein.com', '_blank');
+        })
+        $(".creativo").click(function() {
+          window.open('http://ajheflin.com/dev/creativo/', '_blank');
+        })
+    </script>
+  </body>
+</html>
