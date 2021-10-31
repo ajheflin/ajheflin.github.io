@@ -157,5 +157,30 @@ div.container2 p {
 .work div.creativo:hover {
   background-size: 100%;
   cursor: pointer; }
+ul {
+  font-size: 2em;
+  font-family: "Playfair Display", "Tahoma", "Arial";
+}
+ul.leftList {
+  width: 46%;
+  display: inline-block;
+  margin: 0;
+  padding: 2%;
+}
+ul.rightList {
+  width: 46%;
+  display: inline-block;
+  margin: 0;
+  padding: 2%;
+}
+.link {
+  text-decoration: none;
+  color: #0373b4;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+.link:hover {
+  color: red;
+}
 
 /*# sourceMappingURL=styles.css.map */
