@@ -130,13 +130,13 @@
 	<div class="navBar">
 		<div class="navContent">
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="finding.php">Finding a Job</a></li>
-				<li><a href="applications.php">Application</a></li>
-				<li><a href="resume.php">Resume</a></li>
-				<li><a href="interview.php">Interview</a></li>
-				<li><a href="keeping.php">Keeping a Job</a></li>
-				<li><a href="contact.php">Contact</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="finding.html">Finding a Job</a></li>
+				<li><a href="applications.html">Application</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="interview.html">Interview</a></li>
+				<li><a href="keeping.html">Keeping a Job</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -144,13 +144,13 @@
 	<div class="top">
 		<img src="img/logo-white.png" alt="">
 		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="finding.php">Finding a Job</a></li>
-			<li><a href="applications.php">Application</a></li>
-			<li><a href="resume.php">Resume</a></li>
-			<li><a href="interview.php">Interview</a></li>
-			<li><a href="keeping.php">Keeping a Job</a></li>
-			<li><a href="contact.php">Contact</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="finding.html">Finding a Job</a></li>
+			<li><a href="applications.html">Application</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="interview.html">Interview</a></li>
+			<li><a href="keeping.html">Keeping a Job</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 		<button class="hamburger hamburger--elastic" type="button" onclick="$(this).toggleClass('is-active');">
 			<span class="hamburger-box">
@@ -164,8 +164,7 @@
 			<div class="inner">
 				<h1>Contact Us</h1>
 				<!-- php code to check if submitted -->
-				<?php if(isset($_GET['submitted'])) { echo "<p class='submitted'>Thank you for your comments. We'll get back to you as soon as we can.</p>"; } ?>
-		        <form action="submit.php" name="contact" id="contact" method="POST">
+		        <form action="contact.html" name="contact" id="contact" method="POST">
 		          <input type="text" placeholder="Name" name='name' id="name"><br>
 		          <input type="email" placeholder="Email" name='email' id="email"><br>
 		          <textarea name="comments" id="comments" form="contact" placeholder="Comments"></textarea><br>

@@ -25,7 +25,7 @@ $(document).ready(function() {
 })
 //makes the image in the top left a 'return to home' button
 $(".top img").click(function() {
-  document.location.href = 'index.php'
+  document.location.href = 'index.html'
 });
 //redoes the navbar spacing upon resize
 $(window).resize(function() {
