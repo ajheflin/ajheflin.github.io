@@ -1,0 +1,297 @@
+@import url('fonts.css');
+@import url('ionicons.css');
+* {
+  padding: 0;
+  margin: 0;
+}
+body, html {
+  overflow-x: hidden;
+  font-size: 14px;
+}
+.wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  position: relative;
+}
+.inner > h1:first-child {
+  font-size: 4em;
+}
+.header {
+  width: 100%;
+  position: relative;
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/headerbg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.innerHeader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "bebas-neue";
+  color: white;
+  background-color: rgba(191,96,86,0.6);
+  padding: 2% 5%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2%;
+  width: 96%;
+  z-index: 500;
+}
+.nav img {
+  width: 15vw;
+}
+div.body {
+  width: 100vw;
+  margin: 0 auto;
+}
+div.body * {
+  margin: 0;
+}
+div.left, div.right, div.middle {
+  width: calc(100vw / 3);
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  height: 35vh;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+  cursor: pointer;
+}
+div.left:hover, div.right:hover, div.middle:hover {
+  background: black;
+}
+div.left h1, div.right h1, div.middle h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "bebas-neue";
+  font-size: 3em;
+}
+div.left {
+  background: #e0aa96;
+}
+div.middle {
+  background: #e89476;
+}
+div.right {
+  background: #BF6056;
+}
+div.left i, div.right i, div.middle i {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+  font-size: 3em;
+}
+@media(max-width: 1350px) {
+  div.left, div.right, div.middle {
+    height: 50vh;
+  }
+}
+.touchevents .innerHeader {
+  font-size: 1.5em;
+}
+.touchevents .nav img {
+  width: 25vw;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body, html {
+	overflow-x: hidden;
+}
+.content {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+.content .inner {
+	width: 61%;
+	padding: 2% 0%;
+	margin: 0 auto;
+}
+.content h1 {
+	font-family: "bebas-neue";
+	text-align: center;
+}
+.content p {
+	font-family: "Lato";
+  font-size: 1.5em;
+  color: #79798A;
+}
+.content a {
+  color: black;
+  text-decoration: underline;
+}
+.content a:hover {
+  color: #F4B39C;
+}
+.content ul {
+  font-size: 1.5em;
+  font-family: "Lato";
+  margin-left: 2vw;
+}
+.wide {
+	width: 100vw;
+}
+.threethings {
+	background: linear-gradient(rgba(121,121,138, 0.85), rgba(121,121,138, 0.85)), url("../img/headerbg.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.thing {
+	color: white;
+	display: inline-block;
+	width: 20vw;
+	padding: 2vh 2vw;
+	font-size: 1.15em;
+}
+@media(max-width: 860px) {
+	.thing {
+		width: 30vw;
+	}
+}
+.thing h1 {
+	font-family: "bebas-neue";
+	text-align: center;
+}
+.thing p {
+	font-family: "Lato";
+  color: white;
+  text-align: justify;
+}
+.things {
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	position: relative;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 70vw;
+}
+@media(max-width: 800px) {
+	.things {
+		display: block;
+		position: static;
+		width: 80vw;
+		margin: 0 auto;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}
+	.thing {
+		width: 100%;
+		display: block;
+	}
+	.threethings {
+		position: static;
+	}
+  div.left, div.right, div.middle {
+    display: block;
+    text-align: center;
+    padding: 3% 2vw;
+    width: 100%;
+    height: auto;
+    font-size: 1em  !important;
+  }
+  div.left h1, div.right h1, div.middle h1 {
+    position: static;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@media(max-width: 650px) {
+	.content .inner {
+		width: 90vw;
+	}
+}
+@media(max-width: 550px) {
+	.things {
+		width: 90vw;
+	}
+  .header .innerHeader {
+    font-size: 1em;
+  }
+}
+a {
+  text-decoration: underline;
+  color: white;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+.bigButton {
+  position: relative;
+  top: 10px;
+  padding: 1% 3%;
+  background: #F4B39C;
+  color: white;
+  font-family: "bebas-neue";
+  font-size: 1.5em;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.bigButton:hover {
+  background: #BF6056;
+}
+.bigBanner {
+  padding: 5vh 2vw;
+  width: 96vw !important;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/headerbg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "bebas-neue";
+  font-size: 3em;
+}
+@media(max-width: 450px) {
+  .bigBanner {
+    font-size: 2em;
+  }
+}
+.social {
+  margin-top: 10px;
+}
+.social a {
+  font-size: 2em;
+  margin: 0px 20px;
+}
+.social .twitter {
+  color: #00aced;
+}
+.social .facebook {
+  color: #3b5998;
+}
+.social .instagram {
+  color: #F46F30;
+}
